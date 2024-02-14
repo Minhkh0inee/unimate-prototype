@@ -1,0 +1,59 @@
+.review-card-horizontal-base {
+  border: black solid 1px;
+  background-color: #1b1f44;
+  height: 100px;
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.review-card-horizontal-main {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 14px;
+  left: 14px;
+  z-index: 20;
+  padding: 10px;
+}
+
+.review-card-horizontal-content {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+  color: black;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.position {
+  font-weight: 600;
+  margin: 4px 0 10px;
+}
+
+.introduction {
+  font-weight: 600;
+}
+
+.review-card-horizontal-avatar {
+  width: 78px;
+  height: 78px;
+  background-color: red;
+  position: absolute;
+  top: -60px;
+  left: -10px;
+  z-index: 30;
+  border-radius: 9999px;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 9999px;
+}

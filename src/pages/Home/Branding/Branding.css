@@ -1,0 +1,9 @@
+.section-wrapper-branding {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 100px;
+  margin-bottom: 150px;
+}

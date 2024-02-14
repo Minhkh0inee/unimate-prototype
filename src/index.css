@@ -1,0 +1,42 @@
+.color-blue-bell {
+  color: #9a98e1;
+}
+
+.background-blue-bell {
+  background-color: #9a98e1;
+}
+
+.color-isabelline {
+  color: #f7f3ea;
+}
+
+.background-isabelline {
+  color: #f7f3ea;
+}
+
+.background-red {
+  background-color: #ff6160;
+}
+
+.color-red {
+  color: #ff6160;
+}
+
+.background-green {
+  background-color: #3bb273;
+}
+
+.color-green {
+  color: #3bb273;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: #f7f3ea;
+}

@@ -1,0 +1,47 @@
+.header-section {
+  width: 100%;
+  position: sticky;
+  z-index: 9999;
+  top: 0;
+  height: 93px;
+  display: flex;
+  background-color: #f7f3ea;
+}
+
+.header-wrapper {
+  max-width: 1440px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.header-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-left: 0.5rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: black;
+}
+
+.menu-item {
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  color: #9a98e1;
+  transition: ease-in-out 0.3s;
+}

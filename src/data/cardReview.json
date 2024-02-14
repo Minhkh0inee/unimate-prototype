@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Jessica Bahm",
+    "position": "GRAPHIC DESIGNER",
+    "introduction": "Introducing Our Talented Graphic Designer: Elevating Your Brand with Expert Visual Craftsmanship.",
+    "color": "#40d085",
+    "avatarUrl": "https://images.unsplash.com/photo-1548142813-c348350df52b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVvcGxlJTIwc21pbGV8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "name": "John Doe",
+    "position": "BUSINESS ANALYST",
+    "introduction": "Unlocking Business Potential: Expert Analysis Tailored to Your Company's Growth.",
+    "color": "#FF7D7C",
+    "avatarUrl": "https://images.unsplash.com/photo-1506277886164-e25aa3f4ef7f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cGVvcGxlJTIwc21pbGV8ZW58MHx8MHx8fDA%3D"
+  },
+  {
+    "name": "Elyssa Smith",
+    "position": "PROGRAMMER",
+    "introduction": "Transforming Ideas into Innovation: Meet Our Proficient Programmer.",
+    "color": "#B0AEFF",
+    "avatarUrl": "https://images.unsplash.com/photo-1525134479668-1bee5c7c6845?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHBlb3BsZSUyMHNtaWxlfGVufDB8fDB8fHww"
+  }
+]

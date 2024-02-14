@@ -1,0 +1,71 @@
+.container-section-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.section-5-sub-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.section-5-title {
+  font-size: 3rem;
+  width: 40%;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.section-5-review-card-wrapper {
+  margin-top: 20px;
+  display: flex;
+  column-gap: 20px;
+}
+
+.get-started-section {
+  padding: 40px 0;
+  margin: 50px auto;
+  width: 100%;
+  height: auto;
+  background: linear-gradient(to left, #95eebf, #817dff);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.get-started-sub-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: black;
+}
+
+.get-started-title {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+}
+
+.btn-get-started {
+  padding: 20px 100px;
+  color: white;
+  background-color: black;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.btn-get-started:hover {
+  background: white;
+  transition: ease-in-out 0.5s;
+  color: black;
+}
