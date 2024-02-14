@@ -28,7 +28,7 @@ const ReviewCardHorizontal = ({
         </div>
       </div>
       <div className="review-card-horizontal-avatar">
-        <img loading="l" src={avatarUrl} alt="avatar" className="avatar" />
+        <img loading="lazy" src={avatarUrl} alt="avatar" className="avatar" />
       </div>
     </div>
   );
