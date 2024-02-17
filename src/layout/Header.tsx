@@ -13,6 +13,10 @@ const Header = () => {
     navigate("/blog");
   };
 
+  const navigateToSignUp = () => {
+    navigate("/signup");
+  };
+
   return (
     <div className="header-section">
       <div className="header-wrapper">
@@ -31,10 +35,8 @@ const Header = () => {
           </div>
 
           <div className="menu-item">Contact</div>
-          <div className="menu-item">
-            <a href="/signup" style={{ textDecoration: "none" }}>
-              Sign Up
-            </a>
+          <div className="menu-item" onClick={navigateToSignUp}>
+            <span style={{ textDecoration: "none" }}>Sign Up</span>
           </div>
           <div>
             <ButtonRedirectOutline text="Sign In" url="/signin" />
