@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import "./App.css";
 import Footer from "./layout/Footer";
 import Headers from "./layout/Header";
@@ -6,8 +7,17 @@ import Home from "./pages/Home/Home";
 import SignIn from "./pages/SignIn/SignIn";
 import SignUp from "./pages/SignUp/SignUp";
 import { Routes, Route, Outlet } from "react-router-dom";
+import LoadingPage from "../src/components/LoadingPage/LoadingPage.tsx";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 3000);
+  }, []);
+  if (loading) {
+    return <LoadingPage />;
+  }
+
   const MainLayout = () => {
     return (
       <>
