@@ -1,0 +1,9 @@
+.category-wrapper{
+    width: 60%;
+    height: 500px;
+    background-color: white;
+}
+
+.card-category{
+    border: black solid 1px;
+}
