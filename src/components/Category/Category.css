@@ -1,9 +1,49 @@
-.category-wrapper{
+.category-section{
     width: 60%;
-    height: 500px;
+    display: flex;
+    flex-direction: column;
     background-color: white;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.card-category{
-    border: black solid 1px;
+.category-title{
+    color: black;
+    margin-left: 20px;
+}
+
+.category-wrapper{
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    display: grid; /* Change from flex to grid */
+    grid-template-columns: repeat(4, 1fr); /* Create 4 equal-width columns */
+    grid-template-rows: 120px;
+    grid-gap: 5px; /* Set the gap between grid items */
+    justify-items: center; /* Center the items horizontally */
+}
+
+.confirm-button{
+    width: 20%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s ease-in-out;
+    border: #9a98e1 solid 1px;
+    background-color: whtie;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.confirm-button:hover{
+    background-color: #9a98e1;
+    color: white;
+}
+
+.btn-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
