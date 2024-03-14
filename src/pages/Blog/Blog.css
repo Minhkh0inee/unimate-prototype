@@ -25,6 +25,9 @@
 .filter-wrapper {
   width: 30%;
   height: 300px;
+  position: sticky;
+  top: 200px;
+bottom: 100px;
 }
 
 .filter {

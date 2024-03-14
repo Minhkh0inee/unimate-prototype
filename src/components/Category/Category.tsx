@@ -4,8 +4,6 @@ import "./Category.css"
 import { useState } from 'react';
 import CategoryCard from './CategoryCard';
 import data from '../../data/category.json';
-import { ButtonGroup } from '@mui/material';
-import ButtonFill from '../ButtonFill/ButtonFill';
 const Category = () => {
     const [open, setOpen] = useState(true);
     const handleClose = () => {

@@ -16,10 +16,6 @@ const Blog = () => {
   return (
     <>
       <Category></Category>
-      <div className="section-wrapper-blog">
-        <div className="blog-title">Blog</div>
-        <BlogCardBig></BlogCardBig>
-      </div>
       <div className="section-wrapper-blog-scroll">
         <div className="filter-wrapper">
           <div className="filter">
@@ -33,8 +29,8 @@ const Blog = () => {
               style={{ backgroundColor: "black", color: "white" }}
             ></Chip>
             <Chip
-              onClick={() => setSelectedCategory('study')}
-              label="Study"
+              onClick={() => setSelectedCategory('iveleague')}
+              label="Ive League"
               style={{
                 backgroundColor: "#B0AEFF",
                 color: "black",
@@ -52,8 +48,8 @@ const Blog = () => {
               }}
             ></Chip>
             <Chip
-             onClick={() => setSelectedCategory('knowledge')}
-              label="Knowledge"
+             onClick={() => setSelectedCategory('accommodation')}
+              label="Accommodation"
               style={{
                 backgroundColor: "#B0AEFF",
                 color: "black",
@@ -61,8 +57,28 @@ const Blog = () => {
               }}
             ></Chip>
             <Chip
-             onClick={() => setSelectedCategory('daily')}
-              label="Daily"
+             onClick={() => setSelectedCategory('visa')}
+              label="Visa"
+              style={{
+                backgroundColor: "#B0AEFF",
+                color: "black",
+                fontWeight: 600,
+              }}
+            ></Chip>
+
+            <Chip
+             onClick={() => setSelectedCategory('scholarship')}
+              label="Scholarship"
+              style={{
+                backgroundColor: "#B0AEFF",
+                color: "black",
+                fontWeight: 600,
+              }}
+            ></Chip>
+
+            <Chip
+             onClick={() => setSelectedCategory('culture')}
+              label="Culture"
               style={{
                 backgroundColor: "#B0AEFF",
                 color: "black",

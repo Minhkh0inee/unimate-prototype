@@ -6,7 +6,10 @@ import Section4 from "./Section4/Section4";
 import Section5 from "./Section5/Section5";
 import Branding from "./Branding/Branding";
 
+
 const Home = () => {
+
+
   return (
     <>
       <div className="section-wrapper-home">

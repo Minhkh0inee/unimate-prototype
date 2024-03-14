@@ -18,9 +18,9 @@
     background-color: white;
     padding: 20px;
     display: grid; /* Change from flex to grid */
-    grid-template-columns: repeat(4, 1fr); /* Create 4 equal-width columns */
-    grid-template-rows: 120px;
-    grid-gap: 5px; /* Set the gap between grid items */
+    grid-template-columns: repeat(3, auto); /* Create 4 equal-width columns */
+    grid-template-rows: auto;
+    grid-gap: 10px; /* Set the gap between grid items */
     justify-items: center; /* Center the items horizontally */
 }
 
