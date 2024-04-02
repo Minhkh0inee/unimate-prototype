@@ -1,5 +1,4 @@
 import "./Blog.css";
-import BlogCardBig from "../../components/BlogCardBig/BlogCardBig";
 import BlogCardSmall from "../../components/BlogCardSmall/BlogCardSmall";
 import { Chip } from "@mui/material";
 import { IoMdSearch } from "react-icons/io";
@@ -89,14 +88,14 @@ const Blog = () => {
         </div>
         <div className="blog-scroll">
           {filteredData.map((item, index) => (
-            <BlogCardSmall 
+            <BlogCardSmall
               key={index}
               image={item.image}
               category={item.category}
               headline={item.headline}
             />
           ))}
-      
+
 
         </div>
       </div>

@@ -10,22 +10,16 @@ import Branding from "./Branding/Branding";
 const Home = () => {
 
 
-  return (
-    <>
-      <div className="section-wrapper-home">
-        <Section1 />
-      </div>
-      <Branding />
-      <div className="section-wrapper-home">
-        <Section2 />
-      </div>
-      <Section3></Section3>
-      <div className="section-wrapper-home">
-        <Section4 />
-        <Section5 />
-      </div>
-    </>
-  );
+    return (
+        <>
+            <Section1/>
+            <Branding/>
+            <Section2/>
+            <Section3/>
+            <Section4/>
+            <Section5/>
+        </>
+    );
 };
 
 export default Home;

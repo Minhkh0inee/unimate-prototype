@@ -1,21 +1,25 @@
 .blog-card-small-wrapper {
   position: relative;
   width: 100%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.blog-card-small-wrapper:hover {
+  transform: scale(1.1);
 }
 
 .blog-card-small-img-wrapper {
   height: 480px;
- 
 }
 
 .blog-card-small-img {
   width: 100%;
-  height: 100%;
   object-fit: contain;
   border-radius: 20px;
 }
 
-.blog-card-small-titlte {
+.blog-card-small-title {
   font-size: 1rem;
   font-weight: 600;
   margin: 10px 0;

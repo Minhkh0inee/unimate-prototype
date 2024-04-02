@@ -5,16 +5,17 @@ const Section2 = () => {
   return (
     <section className="container-section-2">
       <div className="title-section-2">
-        Unleash Your Potential <br></br> With Our Mentorship
+        Unleash Your Potential <span className="nl">With Our Mentorship</span>
       </div>
       <div className="sub-title-section-2">
         We help you excel abroad with mentorship: <br></br> Guidance, support,
         and endless growth.
       </div>
-      <div className="benefit-wrapper background-blue-bell">
+
+      <div className="benefit-wrapper">
         <div className="benefit-left">
-          <div className="benefit-icon">
-            <img src={MentorIcon} alt="" />
+          <div className="benefit-icon-wrapper">
+            <img className="benefit-icon" src={MentorIcon} alt="" />
           </div>
           <div className="benefit-title">
             ACTIVE COLLEGE <br></br>MENTORS
@@ -25,11 +26,12 @@ const Section2 = () => {
           </p>
         </div>
 
+
         <div className="divider-section-2"></div>
 
         <div className="benefit-right">
-          <div className="benefit-icon">
-            <img src={Centralizeicon} alt="" />
+          <div className="benefit-icon-wrapper">
+            <img className="benefit-icon" src={Centralizeicon} alt="" />
           </div>
           <div className="benefit-title">
             CENTRALIZED <br></br> INFORMATION HUB

@@ -7,16 +7,16 @@ import Brand4 from "../../../assets/brand/image 8.png";
 const Branding = () => {
   return (
     <div className="section-wrapper-branding background-blue-bell">
-      <div>
+      <div className="branding-card">
         <img src={Brand2} alt="" />
       </div>
-      <div>
+      <div  className="branding-card">
         <img src={Brand1} alt="" />
       </div>
-      <div>
+      <div  className="branding-card">
         <img src={Brand3} alt="" />
       </div>
-      <div>
+      <div  className="branding-card">
         <img src={Brand4} alt="" />
       </div>
     </div>

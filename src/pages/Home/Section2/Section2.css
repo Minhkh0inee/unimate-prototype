@@ -1,38 +1,74 @@
 .container-section-2 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   width: 100%;
-  margin: 0 auto 50px;
-  height: 80vh;
+  margin: 20px auto;
+  height: auto;
+  padding: 80px 10px;
+
 }
 
 .title-section-2 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-weight: 600;
-  width: 60%;
-  text-align: center;
+  width: 100%;
   margin-bottom: 20px;
   color: black;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3rem;
+  }
+
+  @media screen and (min-width: 1280px) {
+    font-size: 4rem;
+  }
+}
+
+.nl{
+  display: inline;
+
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
 }
 
 .sub-title-section-2 {
-  width: 35%;
+  width: 100%;
   text-align: center;
   color: black;
   font-size: 1.2rem;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 50px;
 }
 
 .benefit-wrapper {
-  width: 80%;
-  height: 308px;
+  width: 100%;
+  height: auto;
   border-radius: 20px;
-  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 30px 20px;
+  row-gap: 20px;
+  background-color: #8A86E1;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 60%;
+  }
+
+  @media screen and (min-width: 1600px) {
+    width: 50%;
+  }
 }
 
 .benefit-left,
@@ -41,20 +77,30 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  width: 100%;
   height: 100%;
+
+
+  @media screen and (min-width: 768px) {
+    width: 50%;
+  }
 }
 
 .divider-section-2 {
-  width: 2px;
-  height: 90%;
+  width: 100%;
+  height: 1px;
   background-color: black;
+
+  @media screen and (min-width: 768px) {
+    width: 2px;
+    height: 230px;
+    background-color: black;
+  }
 }
 
 .benefit-title {
   font-size: 1.2rem;
   font-weight: 600;
-  margin-bottom: 20px;
   color: black;
   text-align: center;
   margin: 10px 0 20px;
@@ -66,4 +112,18 @@
   color: black;
   text-align: center;
   margin: 0 0 20px;
+}
+
+.benefit-icon-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.benefit-icon{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

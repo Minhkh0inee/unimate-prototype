@@ -1,33 +1,21 @@
-.section-wrapper-blog {
-  max-width: 1440px;
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-  margin: 50px auto;
-}
-
-.blog-title {
-  text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
 
 .section-wrapper-blog-scroll {
-  max-width: 1440px;
-  width: 80%;
+  width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  margin: 50px auto;
+  margin: 0 auto;
   column-gap: 80px;
+  padding: 100px;
+  height: auto;
 }
 
 .filter-wrapper {
   width: 30%;
-  height: 300px;
+  height: auto;
   position: sticky;
   top: 200px;
-bottom: 100px;
+
 }
 
 .filter {
@@ -48,7 +36,8 @@ bottom: 100px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  row-gap: 20px;
+  row-gap: 80px;
+
 }
 
 .search-wrapper {

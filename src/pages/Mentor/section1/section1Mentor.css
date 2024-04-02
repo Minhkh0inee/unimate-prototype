@@ -1,0 +1,61 @@
+.section-1-mentor-wrapper{
+    display: flex;
+    padding: 100px 0 0;
+}
+
+.section-1-left{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.img-wrapper{
+    width: 250px;
+    height: 250px;
+}
+
+.img-wrapper-2{
+    width: 250px;
+    height: 250px;
+    position: relative;
+}
+
+
+.img-mentor{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.img-mentor-2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 15%;
+}
+
+.section-1-right{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.mentor-small-title{
+    font-weight: 600;
+    font-size: 3rem;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0; /* Add this line */
+    bottom: 0; /* Add this line */
+    display: flex; /* Add this line */
+    justify-content: center; /* Add this line */
+    align-items: center; /* Add this line */
+}

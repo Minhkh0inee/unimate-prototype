@@ -6,12 +6,13 @@
   height: 93px;
   display: flex;
   background-color: #f7f3ea;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
 }
 
 .header-wrapper {
+  padding: 0 20px;
   max-width: 1440px;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -40,7 +41,13 @@
 }
 
 .menu-item {
+  display: none;
   cursor: pointer;
+
+
+  @media (min-width: 992px) {
+    display: block;
+  }
 }
 
 .menu-item:hover {

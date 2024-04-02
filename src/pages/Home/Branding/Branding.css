@@ -1,9 +1,24 @@
 .section-wrapper-branding {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  height: 88px;
-  display: flex;
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: #8A86E1;
+  justify-items: center;
   align-items: center;
-  justify-content: center;
-  column-gap: 100px;
-  margin-bottom: 150px;
+  padding: 10px;
+
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+
+.branding-card{
+
 }

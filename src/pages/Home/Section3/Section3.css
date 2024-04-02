@@ -1,5 +1,5 @@
 .container-section-3 {
-  margin: 0 auto 200px;
+  margin: 0 auto ;
   background-color: #1b1f44;
 }
 
@@ -7,24 +7,47 @@
   max-width: 1440px;
   display: flex;
   align-items: center;
-  width: 80%;
+  flex-direction: column;
+  row-gap: 50px;
+  width: 100%;
   margin: 0 auto;
-  height: 525px;
+  height: auto;
+  padding: 50px 20px;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+
+  @media screen and (min-width: 1280px) {
+    height: 450px;
+  }
 }
 
 .section-3-left,
 .section-3-right {
   position: relative;
-  width: 50%;
+  width: 100%;
   height: 100%;
   color: white;
+  display: flex;
+  justify-content: center;
+
+  @media screen and (min-width: 768px) {
+    width: 50%;
+  }
 }
 
 .section-3-logo {
-  position: absolute;
-  top: 20%;
-  left: 0;
-  right: 0;
+  width: 300px;
+  object-fit: cover;
+
+  @media screen and (min-width: 1280px) {
+    width: 400px;
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+  }
 }
 
 .section-3-right {
@@ -35,12 +58,12 @@
 }
 
 .section-3-title {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 700;
 }
 
 .section-3-paragraph-1 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 25px;
 }
 
@@ -51,7 +74,7 @@
 }
 
 .experience-number {
-  font-size: 4rem;
+  font-size: 3.7rem;
   font-weight: 700;
 }
 

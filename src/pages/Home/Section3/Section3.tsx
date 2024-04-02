@@ -15,9 +15,9 @@ const Section3 = () => {
         <div className="section-3-right">
           <div className="section-3-title color-blue-bell">Why Us ?</div>
           <p className="section-3-paragraph-1">
-            Choose us for your academic journey abroad. We've <br></br> compiled
-            all essential data, connected with experienced <br></br> mentors,
-            ensuring you thrive in your international studies.
+            Choose us for your academic journey abroad. We've <span className="nl">compiled
+            all essential data, connected with experienced</span>  <span className="nl"> mentors,
+            ensuring you thrive in your international studies.</span>
           </p>
 
           <div className="section-3-experience">
@@ -28,8 +28,8 @@ const Section3 = () => {
           </div>
 
           <p className="section-3-paragraph-1">
-            Dedicated university students committed to sharing their <br />{" "}
-            knowledge with future generations.
+            Dedicated university students committed to sharing their <span className="nl">
+            knowledge with future generations.</span>
           </p>
         </div>
       </section>

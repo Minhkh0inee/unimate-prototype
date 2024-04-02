@@ -18,7 +18,7 @@ const BlogCardSmall = ({image, headline, category}: Props) => {
 
       <div className="blog-card-small-content">
         <Chip label={category} color="success" />
-        <div className="blog-card-small-titlte">
+        <div className="blog-card-small-title">
           {headline}
         </div>
         <div className="action-wrapper">

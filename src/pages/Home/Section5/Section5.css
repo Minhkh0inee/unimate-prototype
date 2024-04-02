@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 0;
+  width: 100%;
+  margin: 40px 0;
 }
 
 .section-5-sub-title {
@@ -28,7 +29,7 @@
 .get-started-section {
   padding: 40px 0;
   margin: 50px auto;
-  width: 100%;
+  width: 70%;
   height: auto;
   background: linear-gradient(to left, #95eebf, #817dff);
   border-radius: 20px;
@@ -40,18 +41,19 @@
 
 .get-started-sub-title {
   font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: 700;
   color: black;
 }
 
 .get-started-title {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 700;
   text-align: center;
   color: white;
 }
 
 .btn-get-started {
+  margin-top: 10px;
   padding: 20px 100px;
   color: white;
   background-color: black;
