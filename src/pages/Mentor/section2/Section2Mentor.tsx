@@ -8,7 +8,13 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { Button } from "@/components/ui/button"
 import { Avatar, AvatarImage } from "@/components/ui/avatar"
+import { Link } from 'react-router-dom';
+
 const Section2Mentor = () => {
+
+
+
+
     return (
         <section className="section-2-mentor-wrapper">
             <div className="flex items-center gap-x-10 ">
@@ -80,7 +86,11 @@ const Section2Mentor = () => {
                     <div className="name-mentor">Olivia Cole</div>
                     <div className="card-mentor-up">
                         <div className="text-white uppercase text-xs">marketing specialist</div>
-                        <Button variant="outline" className="h-8 rounded-2xl uppercase">View Profile</Button>
+                        <Link to="/mentor-profile">
+                            <Button variant="outline" className="h-8 rounded-2xl uppercase">
+                                View Profile
+                            </Button>
+                        </Link>
                     </div>
                 </div>
 
@@ -91,7 +101,11 @@ const Section2Mentor = () => {
                     <div className="name-mentor">Olivia Cole</div>
                     <div className="card-mentor-up">
                         <div className="text-white uppercase text-xs">marketing specialist</div>
-                        <Button variant="outline" className="h-8 rounded-2xl uppercase">View Profile</Button>
+                        <Link to="/mentor-profile">
+                            <Button variant="outline" className="h-8 rounded-2xl uppercase">
+                                View Profile
+                            </Button>
+                        </Link>
                     </div>
                 </div>
 
@@ -102,7 +116,11 @@ const Section2Mentor = () => {
                     <div className="name-mentor">Olivia Cole</div>
                     <div className="card-mentor-up">
                         <div className="text-white uppercase text-xs">marketing specialist</div>
-                        <Button variant="outline" className="h-8 rounded-2xl uppercase">View Profile</Button>
+                        <Link to="/mentor-profile">
+                            <Button variant="outline" className="h-8 rounded-2xl uppercase">
+                                View Profile
+                            </Button>
+                        </Link>
                     </div>
                 </div>
 
@@ -113,7 +131,11 @@ const Section2Mentor = () => {
                     <div className="name-mentor">Olivia Cole</div>
                     <div className="card-mentor-up">
                         <div className="text-white uppercase text-xs">marketing specialist</div>
-                        <Button variant="outline" className="h-8 rounded-2xl uppercase">View Profile</Button>
+                        <Link to="/mentor-profile">
+                            <Button variant="outline" className="h-8 rounded-2xl uppercase">
+                                View Profile
+                            </Button>
+                        </Link>
                     </div>
                 </div>
 
@@ -124,21 +146,13 @@ const Section2Mentor = () => {
                     <div className="name-mentor">Olivia Cole</div>
                     <div className="card-mentor-up">
                         <div className="text-white uppercase text-xs">marketing specialist</div>
-                        <Button variant="outline" className="h-8 rounded-2xl uppercase">View Profile</Button>
+                        <Link to="/mentor-profile">
+                            <Button variant="outline" className="h-8 rounded-2xl uppercase">
+                                View Profile
+                            </Button>
+                        </Link>
                     </div>
                 </div>
-
-                <div className="card-mentor">
-                    <Avatar className="avatar-mentor w-20 h-20">
-                        <AvatarImage className="w-full h-full object-cover" src="https://github.com/shadcn.png"/>
-                    </Avatar>
-                    <div className="name-mentor">Olivia Cole</div>
-                    <div className="card-mentor-up">
-                        <div className="text-white uppercase text-xs">marketing specialist</div>
-                        <Button variant="outline" className="h-8 rounded-2xl uppercase">View Profile</Button>
-                    </div>
-                </div>
-
             </div>
         </section>
     );
