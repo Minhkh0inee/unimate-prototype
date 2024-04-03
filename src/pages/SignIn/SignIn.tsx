@@ -11,8 +11,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { useState } from "react";
 import SnackBar from "../../components/SnackBar/SnackBar";
 import { RiTwitterXFill } from "react-icons/ri";
-import { ISignIn } from "../../interface/SignIn";
-import { signIn } from "../../api/userApi";
+
 
 
 const validationSchema = yup
@@ -38,8 +37,7 @@ const SignIn = () => {
     resolver: yupResolver(validationSchema),
   });
 
-  console.log("errors", errors);
-  const onSubmit = (data: ISignIn) => {
+  const onSubmit = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);

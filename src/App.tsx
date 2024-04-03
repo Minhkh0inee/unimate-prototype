@@ -27,7 +27,7 @@ function App() {
                 <main className="main-layout">
                     <Outlet/>
                 </main>
-                {/*<Footer/>*/}
+                <Footer/>
             </>
         );
     };
