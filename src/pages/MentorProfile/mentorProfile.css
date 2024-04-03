@@ -1,0 +1,23 @@
+.background-blue{
+    background-color: #202B8D;
+}
+
+.background-purple{
+    background-color: #E3E2FF;
+}
+
+.background-blue-dark{
+    background-color: #1B1F44;
+}
+
+.text-dark-blue{
+    color: #1B1F44;
+}
+
+.border-dark-blue{
+    border: solid 2px #1B1F44;
+}
+
+.shadow-custom{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

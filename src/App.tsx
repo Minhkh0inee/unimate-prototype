@@ -9,6 +9,7 @@ import SignUp from "./pages/SignUp/SignUp";
 import {Routes, Route, Outlet} from "react-router-dom";
 import LoadingPage from "../src/components/LoadingPage/LoadingPage.tsx";
 import Mentor from "./pages/Mentor/Mentor.tsx";
+import MentorProfile from "@/pages/MentorProfile/MentorProfile.tsx";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -47,6 +48,7 @@ function App() {
                     <Route path="/" element={<Home/>}/>
                     <Route path="/blog" element={<Blog/>}/>
                     <Route path="/mentor" element={<Mentor/>}/>
+                    <Route path="/mentor-profile" element={<MentorProfile/>}/>
                 </Route>
 
                 <Route path="/" element={<AuthLayout/>}>

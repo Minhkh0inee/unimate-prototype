@@ -10,7 +10,7 @@ interface Props {
 const CustomeButtonRedirectFill = styled(Button)({
   background: "#9a98e1",
   borderRadius: "74px",
-  color: "black",
+  color: "white",
   border: "none",
   padding: "20px 30px",
 
